@@ -135,3 +135,12 @@
   display: flex;
   align-items: center;
 }
+
+.info-destaque-texto {
+  font-family: "Roboto", system-ui;
+  font-weight: 600;
+  color: #408fb4;
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin: 3rem 0;
+}
