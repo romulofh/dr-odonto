@@ -259,3 +259,31 @@
   font-weight: 400;
   color: #053e5a;
 }
+
+.redes-sociais-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  margin: 2rem 0;
+}
+
+.redes-sociais-link {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  border: 2px solid #053e5a;
+  width: 50%;
+  text-align: center;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  padding: 1.5rem 1rem;
+  text-decoration: none;
+  color: #053e5a;
+  font-family: "Roboto", system-ui;
+  font-weight: 400;
+}
+
+.redes-sociais-link > img {
+  height: 2rem;
+  width: 2rem;
+}
