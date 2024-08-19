@@ -63,6 +63,7 @@
   border-radius: 10px;
   border: none;
   margin-top: 1rem;
+  cursor: pointer;
 }
 
 .hero-imagem{
@@ -143,4 +144,37 @@
   font-size: 4rem;
   text-transform: uppercase;
   margin: 3rem 0;
+}
+
+.telemarketing {
+  display: flex;
+  justify-content: space-around;
+  background-color: #147992;
+}
+
+.telemarketing-conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.telemarketing-conteudo-titulo {
+  font-family: "Roboto", system-ui;
+  font-weight: 600;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  line-height: 0.9;
+  margin-bottom: 1rem;
+}
+
+.telemarketing-conteudo-texto {
+  font-family: "Roboto", system-ui;
+  font-weight: 200;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.telemarketing-imagem > img {
+  height: 100%;
 }
