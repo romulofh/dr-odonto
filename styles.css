@@ -77,6 +77,7 @@
 
 .especialidades {
   display: flex;
+  flex-direction: column;
 }
 
 .especialidades-titulo {
@@ -86,4 +87,51 @@
   font-family: "Roboto", system-ui;
   font-weight: 400;
   color: #053e5a;
+}
+
+.destaques-especialidades {
+  display: flex;
+  justify-content: space-around;
+  margin: 1.5rem;
+}
+
+.card-especialidades {
+  display: flex;
+  background-color: #053e5a;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.card-especialidades-texto {
+  color: #ffffff;
+  font-family: "Roboto", system-ui;
+  font-weight: 400;
+  font-size: 1.5rem;
+  padding: 0.75rem;
+}
+
+.about {
+  display: flex;
+  margin: 2rem;
+}
+
+.about-titulo {
+  font-family: "Roboto", system-ui;
+  font-weight: 400;
+  color: #053e5a;
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+
+.about-paragrafo {
+  font-family: "Roboto", system-ui;
+  font-weight: 400;
+  color: #053e5a;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.about-imagem {
+  display: flex;
+  align-items: center;
 }
