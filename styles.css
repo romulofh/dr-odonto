@@ -287,3 +287,81 @@
   height: 2rem;
   width: 2rem;
 }
+
+.contato {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem 4rem 6rem 4rem;
+  justify-content: space-around;
+  height: 400px;
+}
+
+.contato-form {
+  width: 50%;
+}
+
+.contato-titulo {
+  font-size: 2.5rem;
+  font-family: "Roboto", system-ui;
+  font-weight: 400;
+  color: #053e5a;
+}
+
+.contato-subtitulo {
+  font-size: 1.75rem;
+  font-family: "Roboto", system-ui;
+  font-weight: 400;
+  color: #053e5a;
+}
+
+.contato-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contato-form-conteudo {
+  height: 2.5rem;
+}
+
+.contato-form-conteudo > input {
+  height: 100%;
+  border-radius: 1rem;
+  border: 1px solid;
+  font-family: "Roboto", system-ui;
+  align-items: center;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.contato-form-conteudo > select {
+  border-radius: 1rem;
+  border: 1px solid;
+  font-family: "Roboto", system-ui;
+  align-items: center;
+  padding-left: 0.5rem;
+  width: 100%;
+  height: 2.5rem;
+}
+
+.contato-form-mensagem {
+  border-radius: 1rem;
+  border: 1px solid;
+  font-family: "Roboto", system-ui;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  height: 150px;
+  width: 100%;
+}
+
+.contato-form-btn {
+  background-color: #147992;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.contato-form-btn:hover {
+  background-color: #1899b9;
+}
+
+
