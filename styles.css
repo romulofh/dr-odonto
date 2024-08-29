@@ -307,9 +307,10 @@
 .contato {
   display: flex;
   flex-direction: row;
-  margin: 2rem 4rem 6rem 4rem;
+  margin: 2rem 4rem 10rem 4rem;
   justify-content: space-around;
   height: 400px;
+  padding: 3rem 0;
 }
 
 .contato-form {
@@ -380,4 +381,37 @@
   background-color: #1899b9;
 }
 
+.rodape {
+  background-color: #053e5a;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
 
+.rodape-titulo {
+  color: #fff;
+  font-family: "Roboto", system-ui;
+  font-weight: 400;
+  margin: 2rem 0 2rem;
+  text-align: center;
+}
+
+.rodape-social-media {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 12rem 3rem;
+}
+
+.rodape-social-media-link {
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Roboto", system-ui;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.rodape-img {
+  width: 24px;
+  height: 24px;
+}
